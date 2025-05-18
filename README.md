@@ -10,19 +10,24 @@ The goal of this portfolio is to apply and demonstrate the foundational skills o
 
 This portfolio includes the following certification projects (plus others):
 
-1. **Tribute Page**  
-   A simple web page dedicated to a person of historical significance.
+1. **Survey Form**  (COMPLETED)
 
-2. **Survey Form**  
    A form that collects user data, built using semantic HTML and styled with CSS.
 
-3. **Product Landing Page**  
+2. **Tribute Page**  (NOT COMPLETED)
+
+   A simple web page dedicated to a person of historical significance.
+
+3. **Product Landing Page**  (NOT COMPLETED)
+
    A mock landing page for a product, featuring media elements and basic layout design.
 
-4. **Technical Documentation Page**  
+4. **Technical Documentation Page**  (NOT COMPLETED)
+
    A structured documentation page that mimics real-world tech documentation sites.
 
-5. **Personal Portfolio Page**  
+5. **Personal Portfolio Page**  (NOT COMPLETED)
+
    A self-designed personal portfolio that links to the above projects and showcases them in a unified layout.
 
 ## 💡 Features
@@ -44,12 +49,12 @@ These are the certification projects! (other projects are also included)
 
 ResponsiveWebDesign/
 
-├── tribute-page/
-
 ├── survey-form/
 
-├── product-landing-page/
+├── tribute-page/
 
 ├── technical-documentation-page/
+
+├── product-landing-page/
 
 └── personal-portfolio/
