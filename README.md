@@ -10,23 +10,23 @@ The goal of this portfolio is to apply and demonstrate the foundational skills o
 
 This portfolio includes the following certification projects (plus others):
 
-1. **Survey Form**  (COMPLETED)
+1. **Survey Form** (COMPLETED)
 
    A form that collects user data, built using semantic HTML and styled with CSS.
 
-2. **Tribute Page**  (NOT COMPLETED)
+2. **Tribute Page** (NOT COMPLETED)
 
    A simple web page dedicated to a person of historical significance.
 
-3. **Product Landing Page**  (NOT COMPLETED)
+3. **Product Landing Page** (NOT COMPLETED)
 
    A mock landing page for a product, featuring media elements and basic layout design.
 
-4. **Technical Documentation Page**  (NOT COMPLETED)
+4. **Technical Documentation Page** (NOT COMPLETED)
 
    A structured documentation page that mimics real-world tech documentation sites.
 
-5. **Personal Portfolio Page**  (NOT COMPLETED)
+5. **Personal Portfolio Page** (NOT COMPLETED)
 
    A self-designed personal portfolio that links to the above projects and showcases them in a unified layout.
 
