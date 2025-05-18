@@ -8,7 +8,7 @@ The goal of this portfolio is to apply and demonstrate the foundational skills o
 
 ## 📚 Projects
 
-This portfolio includes the following certification projects (plus others):
+This portfolio includes the following certification projects (plus other projects):
 
 1. **Survey Form** (COMPLETED)
 
