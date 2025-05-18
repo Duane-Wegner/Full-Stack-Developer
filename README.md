@@ -1,6 +1,6 @@
 # Responsive Web Design Portfolio
 
-This repository showcases a portfolio of responsive web design projects built by following the [freeCodeCamp Responsive Web Design Certification](https://www.freecodecamp.org/learn/2022/responsive-web-design/) & [freeCodeCamp Certified Full Stack Developer Curriculum](https://www.freecodecamp.org/learn/full-stack-developer/) curriculums.
+This repository showcases a portfolio of responsive web design projects built by following the freeCodeCamp [Responsive Web Design Certification](https://www.freecodecamp.org/learn/2022/responsive-web-design/) & [Certified Full Stack Developer Curriculum](https://www.freecodecamp.org/learn/full-stack-developer/) curriculums.
 
 ## 🧠 About
 
