@@ -42,7 +42,7 @@ This portfolio includes the following certification projects (plus other project
 
 - HTML5
 - CSS3
-- [freeCodeCamp's Test Suite](https://github.com/freeCodeCamp/testable-projects-fcc) (for project validation)
+- freeCodeCamp's Test Suite (for project validation)
 
 ## 📁 Folder Structure
 
