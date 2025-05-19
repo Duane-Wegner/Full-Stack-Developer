@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Cat Photo App</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
 <main>
@@ -50,7 +52,7 @@
                 <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
                 <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
             </fieldset>
-            <input type="text" name="catphotourl" placeholder="cat photo URL" id="catphotoURL" required> <label for="catphotoURL">Cat Photo URL:</label>
+            <input type="file" name="catphoto" placeholder="cat photo" id="catphoto" required> <label for="catphoto">Cat Photo:</label>
             <button type="submit">Submit</button>
         </form>
     </section>
