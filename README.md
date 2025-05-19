@@ -45,16 +45,24 @@ This portfolio includes the following certification projects (plus other project
 - [freeCodeCamp's Test Suite](https://github.com/freeCodeCamp/testable-projects-fcc) (for project validation)
 
 ## 📁 Folder Structure
-These are the certification projects! (other projects are also included)
 
-ResponsiveWebDesign/
+HTML_Project/
 
-├── survey-form/
+├── freeCodeCamp/
 
-├── tribute-page/
+│ &emsp; ├── Certification
 
-├── technical-documentation-page/
+│ &emsp; ├── README.md
 
-├── product-landing-page/
+│ &emsp; ├── FullStackDeveloperCurriculum/
 
-└── personal-portfolio/
+│ &emsp; │ &emsp; ├── CSS/
+
+│ &emsp; │ &emsp; └── HTML/
+
+│ &emsp; ├── res/
+
+│ &emsp; └── ResponsiveWebDesign/
+
+Projects for the Certification are located in the certification folder.
+
