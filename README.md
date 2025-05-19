@@ -50,7 +50,7 @@ HTML_Project/
 
 ├── freeCodeCamp/
 
-│ &emsp; ├── Certification
+│ &emsp; ├── Responsive_Web_Design_Certification
 
 │ &emsp; ├── README.md
 
