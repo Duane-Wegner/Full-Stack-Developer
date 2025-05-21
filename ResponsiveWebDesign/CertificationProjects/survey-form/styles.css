@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: url('../../res/images/dev.jpg') no-repeat center center;
+    background: url('../../../res/images/dev.jpg') no-repeat center center;
     background-size: cover;
     color: #333;
 }
