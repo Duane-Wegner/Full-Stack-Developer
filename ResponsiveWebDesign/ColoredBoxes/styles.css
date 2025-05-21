@@ -1,0 +1,41 @@
+html {
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    font-size: 32px;
+    margin: 20px auto 0 auto;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+.color-grid {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 8px 10px;
+    margin: 0 10px;
+}
+
+.color1 {  background-color: #FF0000;
+}
+
+.color2 {   background-color: rgb(255, 0, 255);
+}
+
+.color3 {    background-color: blue;
+}
+
+.color4 {   background-color: hsl(180, 100%, 50%);
+}
+
+.color5 {   background-color: green;
+}
+
