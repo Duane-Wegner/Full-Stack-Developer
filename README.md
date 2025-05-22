@@ -8,7 +8,9 @@ The goal of this portfolio is to apply and demonstrate the foundational skills o
 
 ## 📚 Projects
 
-This portfolio includes the following certification projects (plus other projects):
+This portfolio showcases a selection of certification projects completed independently, as well as additional projects developed through guided, interactive, project-based learning.
+
+The following certified projects were completed independently, without external guidance.
 
 1. **Survey Form** (COMPLETED)
 
