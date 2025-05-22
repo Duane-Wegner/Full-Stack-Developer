@@ -10,7 +10,7 @@ The goal of this portfolio is to apply and demonstrate the foundational skills o
 
 This portfolio showcases a selection of certification projects completed independently, as well as additional projects developed through guided, interactive, project-based learning.
 
-The following certified projects were completed independently, without external guidance.
+The following certified projects were completed independently, with no external guidance beyond the basic structural requirements of the project.
 
 1. **Survey Form** (COMPLETED)
 
