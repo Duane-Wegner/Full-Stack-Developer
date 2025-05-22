@@ -14,7 +14,7 @@ This portfolio includes the following certification projects (plus other project
 
    A form that collects user data, built using semantic HTML and styled with CSS.
 
-2. **Tribute Page** (NOT COMPLETED)
+2. **Tribute Page** (COMPLETED)
 
    A simple web page dedicated to a person of historical significance.
 
@@ -46,23 +46,33 @@ This portfolio includes the following certification projects (plus other project
 
 ## 📁 Folder Structure
 
-HTML_Project/
+HTML_CSS-Portfolio/
 
-├── freeCodeCamp/
+├── FullStackDeveloperCurriculum/
 
-│ &emsp; ├── Responsive_Web_Design_Certification
+│&emsp; &emsp;├── CSS/
 
-│ &emsp; ├── README.md
+│&emsp; &emsp;│ &emsp; &emsp;└── PROJECTS
 
-│ &emsp; ├── FullStackDeveloperCurriculum/
+│&emsp; &emsp;└── HTML/
 
-│ &emsp; │ &emsp; ├── CSS/
+│&emsp; &emsp; &emsp; &emsp;└── PROJECTS
 
-│ &emsp; │ &emsp; └── HTML/
+├── ResponsiveWebDesign
 
-│ &emsp; ├── res/
+│&emsp; &emsp;├── CertificationProjects/
 
-│ &emsp; └── ResponsiveWebDesign/
+│&emsp; &emsp;│ &emsp; &emsp;└── PROJECTS
+
+│&emsp; &emsp;└── Non-CertificationProjects/
+
+│&emsp; &emsp; &emsp; &emsp;└── PROJECTS
+
+ ├── res/
+ 
+│&emsp; &emsp;└── RESOURCE FILES
+
+└── README.md
 
 Projects for the Certification are located in the certification folder.
 
