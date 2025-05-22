@@ -16,7 +16,7 @@ This portfolio includes the following certification projects (plus other project
 
 2. **Tribute Page** (COMPLETED)
 
-   A simple web page dedicated to a person of historical significance.
+   A simple web page dedicated to Håkon Wium Lie - The Father of CSS.
 
 3. **Product Landing Page** (NOT COMPLETED)
 
@@ -34,7 +34,6 @@ This portfolio includes the following certification projects (plus other project
 
 - Fully responsive design using CSS Flexbox and Grid
 - Semantic HTML5 structure
-- Mobile-first approach
 - Accessible and user-friendly forms and navigation
 - Clean, modern UI based on basic HTML and CSS
 
