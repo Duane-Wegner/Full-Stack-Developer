@@ -74,5 +74,5 @@ HTML_CSS-Portfolio/
 
 └── README.md
 
-Projects for the Certification are located in the certification folder.
+*(Projects for the Certification are located in the certification folder.)
 
