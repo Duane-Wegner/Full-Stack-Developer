@@ -8,9 +8,9 @@ The goal of this portfolio is to apply and demonstrate the foundational skills o
 
 ## 📚 Projects
 
-This portfolio showcases a selection of certification projects completed independently, as well as additional projects developed through guided, interactive, project-based learning.
+### This portfolio showcases a selection of certification projects completed independently, as well as additional projects developed through guided, interactive, project-based learning.
 
-The following certified projects were completed independently, with no external guidance beyond the basic structural requirements of the project.
+### The following certified projects were completed independently, with no external guidance beyond the basic structural requirements of the project.
 
 1. **Survey Form** (COMPLETED)
 
@@ -31,6 +31,8 @@ The following certified projects were completed independently, with no external 
 5. **Personal Portfolio Page** (NOT COMPLETED)
 
    A self-designed personal portfolio that links to the above projects and showcases them in a unified layout.
+
+### **All projects completed in the FullStackDeveloperCurriculum/Labs/ directory were undertaken independently, with no external assistance beyond the provided structural guidelines. These projects were not mandatory for certification but were completed to reinforce and extend learning.**
 
 ## 💡 Features
 
@@ -55,7 +57,11 @@ HTML_CSS-Portfolio/
 
 │&emsp; &emsp;│ &emsp; &emsp;└── PROJECTS
 
-│&emsp; &emsp;└── HTML/
+│&emsp; &emsp;├── HTML/
+
+│&emsp; &emsp;│ &emsp; &emsp;└── PROJECTS
+
+│&emsp; &emsp;└── Labs/
 
 │&emsp; &emsp; &emsp; &emsp;└── PROJECTS
 

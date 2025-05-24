@@ -4,7 +4,7 @@ html {
 
 #email {
     padding: 50px;
-    margin: 50px;
+    margin: 50px auto;
     width: 500px;
     border: 2px solid black;
     box-sizing: border-box;

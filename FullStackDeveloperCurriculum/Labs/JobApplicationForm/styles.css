@@ -3,7 +3,7 @@
 /* ---------------------- */
 html {
     background-size: cover;
-    background: url('../../../../res/images/dev.jpg') no-repeat fixed center center;
+    background: url('../../../res/images/dev.jpg') no-repeat fixed center center;
 }
 
 /* ---------------------- */
