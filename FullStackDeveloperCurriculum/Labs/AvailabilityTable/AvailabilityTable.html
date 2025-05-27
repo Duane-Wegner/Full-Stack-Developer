@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>24-Hour Availability Table</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        :root {
+            --color0: #ffcccc;   /* red: unavailable */
+            --color1: #d0f0c0;   /* light green */
+            --color2: #a8e6a3;
+            --color3: #70d070;
+            --color4: #32cd32;
+            --color5: #006400;   /* dark green: max availability */
+
+            --solid-border: 2px solid #444;
+            --dashed-border: 2px dashed #aaa;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 2rem;
+            background: #fff;
+            color: #222;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+            font-size: 0.85rem;
+        }
+
+        th, td {
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+        }
+
+        th.time {
+            background-color: #f0f0f0;
+            font-weight: bold;
+            text-align: left;
+        }
+
+        .available-0 { background-color: var(--color0); }
+        .available-1 { background-color: var(--color1); }
+        .available-2 { background-color: var(--color2); }
+        .available-3 { background-color: var(--color3); }
+        .available-4 { background-color: var(--color4); }
+        .available-5 { background-color: var(--color5); }
+
+        .sharp td {
+            border-bottom: var(--solid-border);
+        }
+        .half td {
+            border-bottom: var(--dashed-border);
+        }
+
+        #legend {
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        #legend span {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        #legend-gradient {
+            width: 80%;
+            height: 20px;
+            margin: 0 auto;
+            background: linear-gradient(
+                    to right,
+                    var(--color0) 0%, var(--color0) 16.66%,
+                    var(--color1) 16.66%, var(--color1) 33.32%,
+                    var(--color2) 33.32%, var(--color2) 49.98%,
+                    var(--color3) 49.98%, var(--color3) 66.64%,
+                    var(--color4) 66.64%, var(--color4) 83.3%,
+                    var(--color5) 83.3%, var(--color5) 100%
+            );
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+<h1>24-Hour Availability Table</h1>
+
+<table>
+    <thead>
+    <tr>
+        <th></th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- Early Morning (Unavailable) -->
+    <tr class="sharp"><th class="time">12:00 AM</th><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td></tr>
+    <tr class="half"><th class="time">1:00 AM</th><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td></tr>
+    <tr class="sharp"><th class="time">2:00 AM</th><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td></tr>
+    <tr class="half"><th class="time">3:00 AM</th><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td></tr>
+    <tr class="sharp"><th class="time">4:00 AM</th><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td></tr>
+    <tr class="half"><th class="time">5:00 AM</th><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td></tr>
+    <tr class="sharp"><th class="time">6:00 AM</th><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td></tr>
+    <tr class="half"><th class="time">7:00 AM</th><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td></tr>
+    <tr class="sharp"><th class="time">8:00 AM</th><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td></tr>
+
+    <!-- 9 AM to 5 PM (Available) -->
+    <tr class="half"><th class="time">9:00 AM</th><td class="available-1"></td><td class="available-2"></td><td class="available-3"></td><td class="available-4"></td><td class="available-5"></td></tr>
+    <tr class="sharp"><th class="time">10:00 AM</th><td class="available-2"></td><td class="available-3"></td><td class="available-4"></td><td class="available-5"></td><td class="available-1"></td></tr>
+    <tr class="half"><th class="time">11:00 AM</th><td class="available-3"></td><td class="available-4"></td><td class="available-5"></td><td class="available-1"></td><td class="available-2"></td></tr>
+    <tr class="sharp"><th class="time">12:00 PM</th><td class="available-4"></td><td class="available-5"></td><td class="available-1"></td><td class="available-2"></td><td class="available-3"></td></tr>
+    <tr class="half"><th class="time">1:00 PM</th><td class="available-5"></td><td class="available-1"></td><td class="available-2"></td><td class="available-3"></td><td class="available-4"></td></tr>
+    <tr class="sharp"><th class="time">2:00 PM</th><td class="available-1"></td><td class="available-2"></td><td class="available-3"></td><td class="available-4"></td><td class="available-5"></td></tr>
+    <tr class="half"><th class="time">3:00 PM</th><td class="available-2"></td><td class="available-3"></td><td class="available-4"></td><td class="available-5"></td><td class="available-1"></td></tr>
+    <tr class="sharp"><th class="time">4:00 PM</th><td class="available-3"></td><td class="available-4"></td><td class="available-5"></td><td class="available-1"></td><td class="available-2"></td></tr>
+    <tr class="half"><th class="time">5:00 PM</th><td class="available-4"></td><td class="available-5"></td><td class="available-1"></td><td class="available-2"></td><td class="available-3"></td></tr>
+
+    <!-- Evening (Unavailable) -->
+    <tr class="sharp"><th class="time">6:00 PM</th><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td></tr>
+    <tr class="half"><th class="time">7:00 PM</th><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td></tr>
+    <tr class="sharp"><th class="time">8:00 PM</th><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td></tr>
+    <tr class="half"><th class="time">9:00 PM</th><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td></tr>
+    <tr class="sharp"><th class="time">10:00 PM</th><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td></tr>
+    <tr class="half"><th class="time">11:00 PM</th><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td><td class="available-0"></td></tr>
+    </tbody>
+</table>
+
+<div id="legend">
+    <span>Availability</span>
+    <div id="legend-gradient"></div>
+</div>
+</body>
+</html>
