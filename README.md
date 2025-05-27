@@ -24,7 +24,7 @@ The goal of this portfolio is to apply and demonstrate the foundational skills o
 
    A mock landing page for a product, featuring media elements and basic layout design.
 
-4. **Technical Documentation Page** (NOT COMPLETED)
+4. **Technical Documentation Page** (COMPLETED)
 
    A structured documentation page that mimics real-world tech documentation sites.
 
