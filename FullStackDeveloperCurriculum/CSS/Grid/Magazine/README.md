@@ -1,5 +1,4 @@
-# css folder
-# webfonts
+# css folder, webfonts
 
 ## 🧠 About
 
