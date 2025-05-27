@@ -20,7 +20,7 @@ The goal of this portfolio is to apply and demonstrate the foundational skills o
 
    A simple web page dedicated to Håkon Wium Lie - The Father of CSS.
 
-3. **Product Landing Page** (NOT COMPLETED)
+3. **Product Landing Page** (COMPLETED)
 
    A mock landing page for a product, featuring media elements and basic layout design.
 
