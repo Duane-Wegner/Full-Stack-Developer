@@ -28,7 +28,7 @@ The goal of this portfolio is to apply and demonstrate the foundational skills o
 
    A structured documentation page that mimics real-world tech documentation sites.
 
-5. **Personal Portfolio Page** (NOT COMPLETED)
+5. **Personal Portfolio Page** (COMPLETED)
 
    A self-designed personal portfolio that links to the above projects and showcases them in a unified layout.
 
