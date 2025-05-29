@@ -1,0 +1,322 @@
+:root {
+    --neutral: #232946;
+    --neutral-focus: #121629;
+    --base: #fffffe;
+    --primary: #eebbc3;
+    --secondary: #b8c1ec;
+    --accent: #d4d8f0;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Noto Serif", serif;
+    text-align: center;
+    background-color: var(--neutral);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Permanent Marker", sans-serif;
+}
+
+h1 {
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--primary);
+    padding: 20px 0;
+    font-size: 20px;
+    z-index: 1000;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 75px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--neutral);
+    padding: 0 16px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+section {
+    min-height: 90vh;
+    padding: 70px 0;
+}
+
+#welcome-section {
+    background-color: var(--neutral);
+    color: var(--base);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 100px;
+}
+
+#welcome-section p {
+    color: var(--primary);
+    font-size: 40px;
+    font-style: italic;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 33%;
+    display: block;
+    width: fit-content;
+}
+
+#welcome-section h1 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 10vh;
+    width: fit-content;
+}
+
+.logo {
+    font-size: 300px;
+    transform: rotateY(180deg);
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+    position: absolute;
+    left: -100px;
+    top: -120px;
+}
+
+.name {
+    color: var(--base);
+    display: inline-block;
+    position: relative;
+    left: -510;
+    top:-100;
+    margin-left: 410px;
+}
+
+#projects .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    padding: 10px;
+    place-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#projects {
+    background-color: var(--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#projects h1 {
+    border-bottom: 5px solid var(--neutral);
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 50px;
+}
+
+#projects .project-tile {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--neutral);
+    color: var(--accent);
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px 10px rgba(100, 100, 100, 0.5);
+}
+
+#projects .projects img {
+    height: 75%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+#projects p {
+    margin: auto;
+}
+
+#projects a {
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.show-all {
+    text-decoration: none;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 0 15px;
+    color: var(--accent);
+    font-size: 25px;
+    background-color: var(--neutral);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in;
+}
+
+.show-all:hover {
+    background-color: var(--neutral-focus);
+    color: var(--base);
+}
+
+#contact-section {
+    background-color: var(--neutral);
+    color: var(--base);
+    font-family: "", sans-serif;
+}
+
+#contact-section h1 {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 400px;
+    font-family: "Noto Serif", serif;
+}
+
+#contact-section .coffee-question {
+    color: var(--primary);
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+}
+
+#contact-section .social-medias {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: space-around;
+    margin: 200px auto auto;
+}
+
+#contact-section .social-medias img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10%;
+    background-color: var(--base);
+}
+
+#contact-section .social-medias p {
+    font-size: 20px;
+}
+
+#contact-section .social-media {
+    text-decoration: none;
+    color: var(--base);
+    transition: transform 0.2s ease-in;
+}
+
+#contact-section .social-media:hover {
+    transform: translateY(10px);
+}
+
+footer {
+    border-top: 3px solid var(--primary);
+    color: var(--base);
+    font-size: 25px;
+    padding: 30px;
+}
+
+/* Make all images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* -------------------------
+   Responsive Styles for Mobile
+-------------------------- */
+@media (max-width: 768px) {
+    #navbar {
+        flex-direction: row;
+        align-items: center;
+        padding: 20px 0;
+        font-size: 20px;
+    }
+
+    .nav-links {
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    #welcome-section {
+        font-size: 50px;
+        padding: 100px 10px;
+    }
+
+    #welcome-section p {
+        font-size: 20px;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    #welcome-section h1 {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        gap: 10px;
+    }
+
+    .logo {
+        font-size: 100px;
+        position: relative;
+        left: 200px;
+        top: 0;
+        -webkit-text-stroke: 1px white;
+        transform: rotateY(180deg);
+        color: transparent;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .name {
+        color: var(--base);
+        font-size: 50px;
+        display: inline-block;
+        position: relative;
+        right: 238px;
+    }
+
+    #projects .projects {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    #projects .project-tile {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    #projects .projects img {
+        height: auto;
+        width: 100%;
+    }
+
+    #projects h1 {
+        font-size: 32px;
+        padding: 20px 10px;
+    }
+}

@@ -103,7 +103,7 @@ section {
     display: inline-block;
 }
 
-#projects .projects {
+#project-section .projects {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 50px;
@@ -113,7 +113,7 @@ section {
     margin: auto;
 }
 
-#projects {
+#project-section {
     background-color: var(--secondary);
     display: flex;
     align-items: center;
@@ -121,14 +121,14 @@ section {
     flex-direction: column;
 }
 
-#projects h1 {
+#project-section h1 {
     border-bottom: 5px solid var(--neutral);
     width: fit-content;
     margin: 0 auto;
     font-size: 50px;
 }
 
-#projects .project-tile {
+#project-section .project-tile {
     height: 500px;
     width: 100%;
     display: flex;
@@ -141,18 +141,18 @@ section {
     box-shadow: 8px 8px 10px 10px rgba(100, 100, 100, 0.5);
 }
 
-#projects .projects img {
+#project-section .projects img {
     height: 75%;
     width: 100%;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
 }
 
-#projects p {
+#project-section p {
     margin: auto;
 }
 
-#projects a {
+#project-section a {
     text-decoration: none;
     font-size: 1.4rem;
 }
@@ -295,23 +295,23 @@ img {
         position: relative;
     }
 
-    #projects .projects {
+    #project-section .projects {
         grid-template-columns: 1fr;
         gap: 20px;
         padding: 10px;
     }
 
-    #projects .project-tile {
+    #project-section .project-tile {
         height: auto;
         padding-bottom: 20px;
     }
 
-    #projects .projects img {
+    #project-section .projects img {
         height: auto;
         width: 100%;
     }
 
-    #projects h1 {
+    #project-section h1 {
         font-size: 32px;
         padding: 20px 10px;
     }
