@@ -1,0 +1,87 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main Container */
+#main {
+    max-width: 800px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+#title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+/* Figure Container */
+#img-div {
+    margin: 20px 0;
+}
+
+/* Image Styling */
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 5px;
+}
+
+/* Caption Styling */
+#img-caption {
+    font-style: italic;
+    margin-top: 0.5rem;
+    color: #555;
+}
+
+/* Tribute Info Section */
+#tribute-info {
+    text-align: left;
+    margin: 2rem 0;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-indent: 5em;
+}
+
+/* Responsive Adjustment for Tribute Info */
+@media (max-width: 600px) {
+    #tribute-info {
+        text-indent: 2em;
+    }
+}
+
+/* Link Styling – AAA Compliant */
+#tribute-link {
+    display: inline-block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    background-color: #20639B; /* Darker blue for better contrast (AAA) */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+#tribute-link:hover {
+    background-color: #173F5F; /* Even darker on hover for contrast and clarity */
+}

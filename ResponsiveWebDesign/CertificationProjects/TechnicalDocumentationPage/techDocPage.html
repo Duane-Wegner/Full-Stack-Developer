@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Dev Duane">
+    <meta name="description" content="A technical documentation page for the HTML and CSS languages." />
+    <link rel="stylesheet" href="techDocPage.css" />
+    <title>Technical Documentation Page</title>
+</head>
+
+<body>
+<main id="main-doc">
+
+    <nav id="navbar">
+        <header>HTML & CSS Documentation</header>
+        <hr>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <hr>
+        <a class="nav-link" href="#HTML_Basics">HTML Basics</a>
+        <hr>
+        <a class="nav-link" href="#CSS_Basics">CSS Basics</a>
+        <hr>
+        <a class="nav-link" href="#Responsive_Design">Responsive Design</a>
+        <hr>
+        <a class="nav-link" href="#Best_Practices">Best Practices</a>
+        <hr>
+    </nav>
+
+
+    <section class="main-section" id="Introduction">
+        <header><h2>Introduction</h2></header>
+        <p>This documentation provides a brief overview of HTML and CSS, the core technologies for building web pages.</p>
+        <p>HTML (HyperText Markup Language) structures the content, while CSS (Cascading Style Sheets) styles it.</p>
+        <code>&lt;!DOCTYPE html&gt;</code>
+        <ul>
+            <li>HTML is not a programming language, it's a markup language.</li>
+            <li>CSS is used to separate content from presentation.</li>
+        </ul>
+    </section>
+
+    <section class="main-section" id="HTML_Basics">
+        <header><h2>HTML Basics</h2></header>
+        <p>HTML uses tags to structure content on the web.</p>
+        <p>Each HTML element has an opening tag, content, and a closing tag.</p>
+        <code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code>
+        <ul>
+            <li>&lt;h1&gt; to &lt;h6&gt; define headings.</li>
+            <li>&lt;a&gt; creates hyperlinks.</li>
+            <li>&lt;img&gt; embeds images.</li>
+        </ul>
+    </section>
+
+    <section class="main-section" id="CSS_Basics">
+        <header><h2>CSS Basics</h2></header>
+        <p>CSS allows you to apply styles to HTML elements.</p>
+        <p>Styles can be inline, internal, or external.</p>
+        <code>p { color: blue; font-size: 16px; }</code>
+        <ul>
+            <li>Selectors target elements to apply styles.</li>
+            <li>Properties define the visual aspect of elements.</li>
+            <li>Values specify the settings of properties.</li>
+        </ul>
+    </section>
+
+    <section class="main-section" id="Responsive_Design">
+        <header><h2>Responsive Design</h2></header>
+        <p>Responsive design ensures a website looks good on all devices.</p>
+        <p>Media queries are commonly used for responsiveness.</p>
+        <code>
+            @media (max-width: 600px) {
+            body {
+            background-color: lightblue;
+            }
+            }
+        </code>
+        <ul>
+            <li>Use relative units like %, em, rem.</li>
+            <li>Design with mobile-first in mind.</li>
+            <li>Use flexible grid or flexbox layouts.</li>
+        </ul>
+    </section>
+
+    <section class="main-section" id="Best_Practices">
+        <header><h2>Best Practices</h2></header>
+        <p>Write clean, semantic HTML to enhance accessibility and SEO.</p>
+        <p>Organize CSS for maintainability using modular structure or frameworks.</p>
+        <code>&lt;section&gt;&lt;h2&gt;Title&lt;/h2&gt;&lt;/section&gt;</code>
+        <ul>
+            <li>Use meaningful tag names.</li>
+            <li>Minimize inline styles.</li>
+            <li>Keep stylesheets DRY (Don't Repeat Yourself).</li>
+        </ul>
+    </section>
+
+</main>
+</body>
+
+</html>

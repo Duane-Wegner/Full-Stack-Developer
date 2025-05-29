@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="HTML and CSS packages for all levels." />
+    <meta name="author" content="Dev Duane" />
+    <title>HTML & CSS Packages</title>
+    <link rel="stylesheet" href="productLandingPage.css" />
+</head>
+
+<body>
+<header id="header">
+    <img
+            id="header-img"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6935wo8bLZh5FeafJEffqWKDOpNpx6UE5bg&s"
+            alt="HTML5 Logo"
+    />
+    <nav id="nav-bar">
+        <a class="nav-link" href="#packages">Packages</a>
+        <a class="nav-link" href="#video-section">Video</a>
+        <a class="nav-link" href="#signup">Sign Up</a>
+    </nav>
+</header>
+
+<main>
+    <section id="packages">
+        <h2>HTML/CSS Packages</h2>
+        <div class="packages">
+            <div class="package">
+                <h3>Basic</h3>
+                <p>3-5 page site with a gallery, contact, form, and basic SEO optimization</p>
+                <div class="price">$499</div>
+            </div>
+            <div class="package">
+                <h3>Premium</h3>
+                <p>5-10 page site, premium gallery design, and a blog</p>
+                <div class="price">$1,499</div>
+            </div>
+            <div class="package">
+                <h3>Premium Plus</h3>
+                <p>15+ pages with more functionality. Booking integration, ecommerce, or real estate</p>
+                <div class="price">$2,499</div>
+            </div>
+            <div class="package">
+                <h3>Custom</h3>
+                <p>Multivendor, hotel booking, classified ads website, this can be more.</p>
+                <p>Remember these clients SHOULD have larger budgets, so they aren't just looking for good quality but pure professionalism</p>
+                <div class="price">$5,000+</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="video-section">
+        <h2>Product Demo Video</h2>
+        <iframe
+                id="video"
+                width="677"
+                height="392"
+                src="https://www.youtube.com/embed/-ewzot5Ys5g"
+                title="Web Design Pricing Guide: How Should You Charge Your Customers?"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+                referrerpolicy="strict-origin-when-cross-origin"
+        ></iframe>
+    </section>
+
+
+    <section id="signup">
+        <h2>Sign Up for Updates</h2>
+        <form
+                id="form"
+                action="_blank"
+                method="POST"
+        >
+            <input
+                    id="email"
+                    type="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+            />
+            <input id="submit" type="submit" value="Subscribe" />
+        </form>
+    </section>
+</main>
+
+<footer>This page is for educational purposes only. All information is sourced from external materials, and full credit for the video content belongs to <a href="https://www.youtube.com/watch?v=-ewzot5Ys5g&ab_channel=DarrelWilson" >Darrel Wilson</a></footer>
+</body>
+</html>
