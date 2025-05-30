@@ -1,0 +1,293 @@
+/* ============ RESPONSIVE WRAPPER ============ */
+body {
+    background-color: #f5f6f7;
+    perspective: 1200px;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+/* Make house container responsive */
+#house {
+    position: relative;
+    margin-top: 20vh;
+    width: 90vw;
+    max-width: 500px;
+    height: auto;
+    aspect-ratio: 5 / 4;
+    background-color: #1a4e8a;
+    border-top-left-radius: 18%;
+    border-top-right-radius: 18%;
+    background-image: repeating-linear-gradient(
+            to bottom,
+            #1a4e8a,
+            #1a4e8a 2%,
+            #154073 2%,
+            #154073 2.4%
+    );
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.15);
+    border: 1.5px solid #000;
+}
+
+/* ============ ROOF ============ */
+#roof {
+    position: absolute;
+    left: -10%;
+    width: 120%;
+    height: 40%;
+    border-top-left-radius: 18%;
+    border-top-right-radius: 18%;
+    background-color: #1c1a1a;
+    background-image:
+            linear-gradient(135deg, transparent 75%, #292727 75%),
+            linear-gradient(45deg, transparent 75%, #292727 75%),
+            linear-gradient(to bottom, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0) 50%);
+    background-size: 8% 8%;
+    background-position: 0 0, 4% 4%, 0 0;
+    border: 1.5px solid #000;
+    z-index: 2;
+}
+
+/* ============ CHIMNEY ============ */
+#chimney {
+    position: absolute;
+    top: -10%;
+    left: 10%;
+    width: 20%;
+    height: 18%;
+    background-color: #7a221f;
+    border: 1.5px solid #4a120f;
+    background-image:
+            linear-gradient(0deg, transparent 75%, rgba(255, 255, 255, 0.15) 75%),
+            linear-gradient(90deg, #4a120f 20%, transparent 20%, transparent 40%, #4a120f 40%, #4a120f 60%, transparent 60%, transparent 80%, #4a120f 80%);
+    background-size: 20px 20px, 40px 40px;
+    z-index: 0;
+}
+
+/* ============ WINDOWS ============ */
+#window-1, #window-2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+    background-color: #7fc7c0;
+    border: 3.5px solid #222;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#window-1 { left: 50px; top: 225px; }
+#window-2 { left: 350px; top: 225px; }
+
+/* Window reflection effect */
+#window-1::after,
+#window-2::after {
+    content: "";
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 30%;
+    background: linear-gradient(135deg, rgba(255,255,255,0.6), transparent);
+    transform: rotate(-15deg);
+}
+
+/* Window outer frame */
+#window-1::before,
+#window-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    box-sizing: border-box;
+    border: 4px solid #222;
+    border-radius: 8px;
+    z-index: 5;
+}
+
+/* Window center vertical frame */
+#window-1 > .center-frame,
+#window-2 > .center-frame {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 4px;
+    height: 100%;
+    background: #222;
+    transform: translateX(-50%);
+    z-index: 6;
+}
+
+/* ============ DOOR ============ */
+#door, #door-opening {
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    top: 55%;
+    left: 40%;
+    border-radius: 8px;
+}
+
+#door {
+    background: linear-gradient(145deg, #b75a1a, #8e3d11);
+    border: 1.5px solid #4b2308;
+    box-shadow: inset 3px 3px 8px rgba(255, 140, 60, 0.9),
+    inset -3px -3px 8px rgba(140, 80, 20, 0.9);
+    transform-origin: left center;
+    transform-style: preserve-3d;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.6s ease;
+    z-index: 2;
+}
+
+#door-opening {
+    background-color: #000;
+    opacity: 0;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.6);
+    transition: opacity 0.4s ease;
+    z-index: 1;
+}
+
+#door:hover {
+    transform: rotateY(-65deg) translateZ(5px);
+    box-shadow: 5px 0 25px rgba(0, 0, 0, 0.6);
+}
+
+#door:hover ~ #door-opening {
+    opacity: 1;
+}
+
+/* Door knob */
+#door::before {
+    content: "";
+    position: absolute;
+    right: 10%;
+    top: 45%;
+    width: 12px;
+    height: 12px;
+    background: radial-gradient(circle at 4px 4px, #555, #222);
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px rgba(255,255,255,0.3);
+    z-index: 10;
+}
+
+/* ============ GRASS ============ */
+#grass {
+    position: absolute;
+    bottom: -4%;
+    left: -10%;
+    width: 120%;
+    height: 10%;
+    background: linear-gradient(to top, #145214 0%, #3a8f34 100%);
+    border-radius: 15px 15px 5px 5px;
+    box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.1);
+    z-index: 3;
+}
+
+/* ============ BUSHES ============ */
+#bushes {
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 4;
+}
+
+.bush {
+    width: 16%;
+    height: 100%;
+    background: radial-gradient(circle at 50% 50%, #145214, #0e3b11);
+    border-radius: 50% / 60% 60% 40% 40%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.bush::before,
+.bush::after {
+    content: "";
+    position: absolute;
+    background: radial-gradient(circle at center, #2d7b2c, #145214);
+    border-radius: 50%;
+}
+
+.bush::before {
+    width: 50%;
+    height: 50%;
+    top: -30%;
+    left: 10%;
+}
+
+.bush::after {
+    width: 40%;
+    height: 40%;
+    top: 10%;
+    right: 10%;
+}
+
+/* ============ SMOKE Puffs ============ */
+.smoke {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-60%);
+    width: 60px;
+    height: 80px;
+    pointer-events: none;
+    overflow: visible;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 10;
+}
+
+.smoke-puff {
+    position: absolute;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(circle at center, rgba(40, 40, 40, 0.85), transparent 70%);
+    border-radius: 50%;
+    filter: blur(5px);
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+}
+
+#chimney:hover .smoke {
+     opacity: 1;
+}
+
+#chimney:hover .smoke-puff {
+    opacity: 1;
+    animation-play-state: running;
+}
+
+.puff1 { left: 10px; animation: smokeUp1 3s ease-out infinite 0s; }
+.puff2 { left: 25px; animation: smokeUp2 3.5s ease-out infinite 1s; }
+.puff3 { left: 40px; animation: smokeUp3 4s ease-out infinite 2s; }
+
+@keyframes smokeUp1 {
+    0%   { transform: translateY(0) scale(0.6); opacity: 0; }
+    10%  { opacity: 0.6; }
+    100% { transform: translateY(-80px) scale(1.2); opacity: 0; }
+}
+@keyframes smokeUp2 {
+    0%   { transform: translateY(0) scale(0.7); opacity: 0; }
+    15%  { opacity: 0.5; }
+    100% { transform: translateY(-90px) scale(1.3); opacity: 0; }
+}
+@keyframes smokeUp3 {
+    0%   { transform: translateY(0) scale(0.5); opacity: 0; }
+    20%  { opacity: 0.55; }
+    100% { transform: translateY(-85px) scale(1.1); opacity: 0; }
+}
+
+

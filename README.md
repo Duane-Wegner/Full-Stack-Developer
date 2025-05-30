@@ -1,86 +1,105 @@
-# Responsive Web Design Portfolio
+# Certified Full Stack Developer Curriculum
 
-## 🧠 About
+Welcome to my journey through the [Certified Full Stack Developer Curriculum](https://www.freecodecamp.org/learn/full-stack-developer/)! This comprehensive course is designed to equip developers with the skills needed to build modern, scalable web applications from the ground up. Covering everything from HTML and CSS to advanced JavaScript, React, and backend technologies.
 
-This repository showcases a portfolio of responsive web design projects built by following the freeCodeCamp [Responsive Web Design Certification](https://www.freecodecamp.org/learn/2022/responsive-web-design/) & [Certified Full Stack Developer Curriculum](https://www.freecodecamp.org/learn/full-stack-developer/) curriculums.
+---
 
-The goal of this portfolio is to apply and demonstrate the foundational skills of HTML5 and CSS3, as taught by freeCodeCamp. Each project adheres to responsive design principles, ensuring a seamless experience across various devices.
+## 🌐 Overview
 
-## 📚 Projects
+This curriculum blends interactive lessons, hands-on labs, and real-world projects. By completing it, I aim to master:
 
-### This portfolio showcases a selection of certification projects completed independently, as well as additional projects developed through guided, interactive, project-based learning.
+- **Frontend Development**: HTML, CSS, JavaScript, Responsive Design, React, TypeScript
+- **Backend Development**: Node.js, Python, Express, and working with APIs
+- **Version Control & Tooling**: Git, npm
+- **Database Management**: Relational Databases, CRUD operations
+- **Accessibility, Testing, and Debugging**
+- **Real-world Capstone Projects**
 
-### The following certified projects were completed independently, with no external guidance beyond the basic structural requirements of the project.
+Final certification includes a capstone project and exam (coming soon).
 
-1. **Survey Form** (COMPLETED)
+---
 
-   A form that collects user data, built using semantic HTML and styled with CSS.
+## ✅ Completed Modules
 
-2. **Tribute Page** (COMPLETED)
+### HTML
+- **Basic HTML**
+- **Semantic HTML**
+- **Forms and Tables**
+- **Accessibility**
 
-   A simple web page dedicated to Håkon Wium Lie - The Father of CSS.
+### CSS
+- **Computer Basics**
+- **Basic CSS**
+- **Design Fundamentals**
+- **Units, Pseudo-classes, and Selectors**
+- **Colors, Typography, Flexbox, Grid**
+- **Animations and Responsive Design**
+- **Accessibility, Positioning, and Debugging**
 
-3. **Product Landing Page** (COMPLETED)
+---
 
-   A mock landing page for a product, featuring media elements and basic layout design.
+## 🧠 In Progress
 
-4. **Technical Documentation Page** (COMPLETED)
+### JavaScript (29/893 steps complete)
+- ✅ Code Editors
+- 🔄 Variables and Strings (in progress)
+- 🕐 All other modules not started:
+   - Booleans & Numbers
+   - Functions, Arrays, Objects, Loops
+   - DOM Manipulation & Events
+   - Debugging & Regular Expressions
+   - Form Validation, Dates, Audio/Video
+   - Maps & Sets, localStorage
+   - Classes, Recursion
+   - Functional & Asynchronous Programming
 
-   A structured documentation page that mimics real-world tech documentation sites.
+---
 
-5. **Personal Portfolio Page** (COMPLETED)
+## 📅 Upcoming Modules
 
-   A self-designed personal portfolio that links to the above projects and showcases them in a unified layout.
+### Front-End Libraries (React)
+- React Basics, Components, JSX
+- State & Props, Lifecycle, Hooks
+- TypeScript Integration
 
-![ResponsiveWebDesignCertification.png](res/ResponsiveWebDesignCertification.png)
-### **All projects completed in the FullStackDeveloperCurriculum/Labs/ directory were undertaken independently, with no external assistance beyond the provided structural guidelines. These projects were not mandatory for certification but were completed to reinforce and extend learning.**
+### Backend Development
+- Git & Version Control
+- Node.js & Express.js
+- Working with APIs
+- Python for Back-End
+- Databases & CRUD
 
-## 💡 Features
+### Final Exam & Certification
+- Final project
+- Performance assessment
+- Certification (Pending curriculum launch)
 
-- Fully responsive design using CSS Flexbox and Grid
-- Semantic HTML5 structure
-- Accessible and user-friendly forms and navigation
-- Clean, modern UI based on basic HTML and CSS
+---
 
-## 🛠 Technologies Used
+## 🚀 Goals
 
-- HTML5
-- CSS3
-- freeCodeCamp's Test Suite (for project validation)
+- Build and deploy full stack web applications
+- Develop strong problem-solving and debugging skills
+- Master modern frontend frameworks and backend architecture
+- Complete certification exam upon availability
 
-## 📁 Folder Structure
+---
 
-HTML_CSS-Portfolio/
+## 🤝 Support the Curriculum
 
-├── FullStackDeveloperCurriculum/
+This course is maintained by a  [nonprofit organization](https://www.freecodecamp.org). You can support development and access additional resources by becoming a supporter of their mission.
 
-│&emsp; &emsp;├── CSS/
+---
 
-│&emsp; &emsp;│ &emsp; &emsp;└── PROJECTS
+## 📌 Notes
 
-│&emsp; &emsp;├── HTML/
+- I’ve completed all HTML and nearly all CSS content.
+- I’m currently working through JavaScript fundamentals while I finish the CSS content and further my skills in CSS.
+- Future goals include mastering backend development and contributing to open-source projects.
 
-│&emsp; &emsp;│ &emsp; &emsp;└── PROJECTS
+---
 
-│&emsp; &emsp;└── Labs/
+### 👨‍💻 Author
 
-│&emsp; &emsp; &emsp; &emsp;└── PROJECTS
-
-├── ResponsiveWebDesign
-
-│&emsp; &emsp;├── CertificationProjects/
-
-│&emsp; &emsp;│ &emsp; &emsp;└── PROJECTS
-
-│&emsp; &emsp;└── Non-CertificationProjects/
-
-│&emsp; &emsp; &emsp; &emsp;└── PROJECTS
-
- ├── res/
- 
-│&emsp; &emsp;└── RESOURCE FILES
-
-└── README.md
-
-*(Projects for the Certification are located in the certification folder.)
+Duane Wegner | [LinkedIn](https://www.linkedin.com/in/duane-wegner-985484295/) |
 

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Job application form">
+    <meta name="author" content="Dev Duane">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="../../../../res/images/favicon-16x16.png" type="image/png">
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+            <h1>Job Application Form</h1>
+            <form id="job-application">
+                <fieldset>
+                    <legend>Applicant Information</legend>
+                        <label for="first-name">First Name:</label>
+                        <input type="text" name="first-name" placeholder="First Name" id="first-name" required>
+
+                        <label for="last-name">Last Name:</label>
+                        <input type="text" name="last-name" placeholder="Last Name" id="last-name" required>
+
+                        <script>
+                            function capitalizeWords(input) {
+                                input.value = input.value.toLowerCase().replace(/\b\w/g, char => char.toUpperCase());
+                            }
+
+                            document.getElementById("first-name").addEventListener("input", function () {
+                                capitalizeWords(this);
+                            });
+
+                            document.getElementById("last-name").addEventListener("input", function () {
+                                capitalizeWords(this);
+                            });
+                        </script>
+
+
+                    <label for="email">Email:</label>
+                        <input type="email" name="email" placeholder="Email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{3,}$">
+
+
+                        <label for="tel">Contact Number:</label>
+                        <input type="tel" id="tel" name="tel" placeholder="###-###-####" maxlength="12" required>
+
+                        <script>
+                            document.getElementById("tel").addEventListener("input", function (e) {
+                                let value = e.target.value.replace(/\D/g, "");
+                                if (value.length < 10) {
+                                    e.target.style.border = "2px solid red";
+                                } else {
+                                    e.target.style.border = "2px solid green";
+                                }
+                                if (value.length > 3) value = value.slice(0, 3) + "-" + value.slice(3);
+                                if (value.length > 7) value = value.slice(0, 7) + "-" + value.slice(7);
+                                e.target.value = value;
+                            });
+                        </script>
+
+
+                        <label for="position">Select a Job Position:</label>
+                            <select id="position" required>
+                                <option value="" disabled selected>Select a position</option>
+                                <option value="Developer">Developer</option>
+                                <option value="Designer">Designer</option>
+                                <option value="Manager">Manager</option>
+                            </select>
+                </fieldset>
+
+                <fieldset class="radio-group">
+                    <legend>Availability:</legend>
+
+                    <input type="radio" name="availability" id="full-time" value="full-time" checked>
+                    <label for="full-time">Full-Time</label>
+
+                    <input type="radio" name="availability" id="part-time" value="part-time">
+                    <label for="part-time">Part-Time</label>
+                </fieldset>
+
+                <fieldset class="radio-group2">
+                    <legend>Work Location Preference:</legend>
+
+                    <input type="radio" name="work-location" id="on-site" value="on-site" checked>
+                    <label for="on-site">On-Site</label>
+
+                    <input type="radio" name="work-location" id="hybrid" value="hybrid">
+                    <label for="hybrid">Hybrid</label>
+
+                    <input type="radio" name="work-location" id="remote" value="remote">
+                    <label for="remote">Remote</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Resume: (Minimum 120 characters)</legend>
+                        <label for="message">Resume Details:</label>
+                        <textarea name="message" id="message" placeholder="Written resume information... " rows="10" cols="50" minlength="120" required></textarea>
+                </fieldset>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>Author: Duane Wegner | Date: <time datetime="2025-05-18">May 18, 2025</time></p>
+        <p>No Copyright - <a href="https://github.com/Duane-Wegner" target="_blank">GitHub.com</a></p>
+    </footer>
+
+    <script>
+        document.getElementById('job-application').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert("Thank you for your feedback!\n(Note: This data is not currently saved.)");
+            location.reload();
+        });
+    </script>
+
+</body>
+
+</html>

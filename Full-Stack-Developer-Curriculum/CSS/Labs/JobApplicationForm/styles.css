@@ -1,0 +1,144 @@
+/* ---------------------- */
+/* Global Background      */
+/* ---------------------- */
+html {
+    background-size: cover;
+    background: url('../../../../res/images/dev.jpg') no-repeat fixed center center;
+}
+
+/* ---------------------- */
+/* Header Section         */
+/* ---------------------- */
+h1 {
+    text-align: center;
+}
+
+/* ---------------------- */
+/* Main Content Container */
+/* ---------------------- */
+.container {
+    max-width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 3px gray;
+    margin: 100px auto;
+    font-size: 16px;
+}
+
+/* ---------------------- */
+/* Form Inputs & Controls */
+/* ---------------------- */
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+input:first-of-type {
+    background-color: whitesmoke;
+}
+
+/* ---------------------- */
+/* Form Focus & Validation */
+/* ---------------------- */
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: yellow;
+    outline: 1px solid yellow;
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+    border-color: red;
+}
+
+input:valid,
+select:valid,
+textarea:valid {
+    border-color: green;
+}
+
+/* ---------------------- */
+/* Radio Group 1 - Availability */
+/* ---------------------- */
+.radio-group input[type="radio"]:checked {
+    background-color: lightgrey;
+    color: black;
+    border: 2px solid lightgrey;
+    box-shadow: 0 0 5px 3px lightgrey;
+}
+
+.radio-group input[type="radio"]:checked + label {
+    color: black;
+}
+
+.radio-group label {
+    color: gray;
+}
+
+/* ---------------------- */
+/* Radio Group 2 - Location */
+/* ---------------------- */
+.radio-group2 input[type="radio"]:checked {
+    border: 2px solid lightgrey;
+    background-color: lightgrey;
+    color: black;
+    box-shadow: 0 0 5px 3px lightgrey;
+}
+
+.radio-group2 input[type="radio"]:checked + label {
+    color: black;
+}
+
+.radio-group2 label {
+    color: gray;
+}
+
+/* ---------------------- */
+/* Submit Button Styling  */
+/* ---------------------- */
+button {
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px auto;
+    font-size: 16px;
+    display: block;
+}
+
+button:hover {
+    background-color: yellow;
+}
+
+/* ---------------------- */
+/* Footer Section         */
+/* ---------------------- */
+footer {
+    max-width: 300px;
+    margin: auto;
+    background-color: white;
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 3px gray;
+    text-align: center;
+    font-size: 16px;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}

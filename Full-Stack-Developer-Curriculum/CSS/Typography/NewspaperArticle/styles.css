@@ -1,0 +1,111 @@
+/* =======================
+   HTML Element Styling
+   ======================= */
+html {
+    font-size: 24px;
+    background-color: #324f68; /* Darkened for improved contrast */
+    width: 600px;
+    margin: 10vh auto;
+}
+
+/* =======================
+   Body Styling
+   ======================= */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* =======================
+   Head Section
+   (Fonts, Meta, External CSS)
+   ======================= */
+/* Handled in HTML <head> via <link> and meta tags */
+
+/* =======================
+   Newspaper Container
+   ======================= */
+.newspaper {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #d9d9e3;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .5);
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    min-width: 400px;
+}
+
+/* =======================
+   Title / Name Section
+   ======================= */
+.name {
+    font-size: 2rem;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+    border-bottom: black solid .2em;
+}
+
+/* =======================
+   Date Section
+   ======================= */
+.date {
+    text-align: left;
+    padding: 1.2em 0 0 1em;
+}
+
+/* =======================
+   Name and Author Styling
+   ======================= */
+.name, .author {
+    text-transform: uppercase;
+}
+
+/* =======================
+   Headline Styling
+   ======================= */
+.headline {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: black solid .1em;
+    padding: 0 0 1em 0;
+}
+
+/* =======================
+   Subheadline Styling
+   ======================= */
+.sub-headline {
+    font-weight: 100;
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+    padding-top: 1em;
+}
+
+/* =======================
+   Author Section
+   ======================= */
+.author {
+    font-weight: bold;
+    text-align: left;
+    padding: 1em 0 1em 1em;
+}
+
+/* =======================
+   Article Body Text
+   ======================= */
+
+.text {
+    line-height: 2em;
+    text-indent: 20px;
+    padding: 0 1.2em;
+}
+
+/* =======================
+   Drop Cap Styling
+   ======================= */
+.text::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+}
