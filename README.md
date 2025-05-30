@@ -40,12 +40,12 @@ Final certification includes a capstone project and exam (coming soon).
 
 ## 🧠 In Progress
 
-### JavaScript (29/893 steps complete)
+### JavaScript (86/893 steps complete)
 - ✅ Code Editors
-- 🔄 Variables and Strings (in progress)
-- 🕐 All other modules not started:
-   - Booleans & Numbers
-   - Functions, Arrays, Objects, Loops
+- ✅ Variables and Strings (in progress)🕐
+- 🔄 Booleans & Numbers
+- 🔄 Functions, Arrays, Objects, Loops
+- 🕐 Modules not started:
    - DOM Manipulation & Events
    - Debugging & Regular Expressions
    - Form Validation, Dates, Audio/Video
@@ -87,7 +87,7 @@ Final certification includes a capstone project and exam (coming soon).
 
 ## 🤝 Support the Curriculum
 
-This course is maintained by a  [nonprofit organization](https://www.freecodecamp.org). You can support development and access additional resources by becoming a supporter of their mission.
+This course is maintained by [freeCodeCamp ](https://www.freecodecamp.org)a nonprofit organization. You can support development and access additional resources by becoming a supporter of their mission.
 
 ---
 

@@ -32,7 +32,7 @@ The goal of this portfolio is to apply and demonstrate the foundational skills o
 
    A self-designed personal portfolio that links to the above projects and showcases them in a unified layout.
 
-![ResponsiveWebDesignCertification.png](../res/ResponsiveWebDesignCertification.png)
+![ResponsiveWebDesignCertification.png](../res/Certifications/ResponsiveWebDesignCertification.png)
 ### **All projects completed in the FullStackDeveloperCurriculum/Labs/ directory were undertaken independently, with no external assistance beyond the provided structural guidelines. These projects were not mandatory for certification but were completed to reinforce and extend learning.**
 
 ## 💡 Features
