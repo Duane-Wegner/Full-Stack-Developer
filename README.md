@@ -40,10 +40,10 @@ Final certification includes a capstone project and exam (coming soon).
 
 ## 🧠 In Progress
 
-### JavaScript (86/893 steps complete)
+### JavaScript (137/893 steps complete)
 - ✅ Code Editors
 - ✅ Variables and Strings (in progress)🕐
-- 🔄 Booleans & Numbers
+- ✅ Booleans & Numbers
 - 🔄 Functions, Arrays, Objects, Loops
 - 🕐 Modules not started:
    - DOM Manipulation & Events
