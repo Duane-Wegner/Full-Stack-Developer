@@ -1,10 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Book Inventory App" />
+    <meta name="author" content="Dev Duane">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Book Inventory</title>
 </head>
-<body>
 
+<body>
+    <main>
+        <h1>Book Inventory</h1>
+        <table>
+            <tr class="headers">
+                <th>Title</th>
+                <th>Author</th>
+                <th>Category</th>
+                <th>Status</th>
+                <th>Rate</th>
+            </tr>
+            <tr class="read">
+                <td>The Hobbit</td>
+                <td>J.R.R. Tolkien</td>
+                <td>Fantasy</td>
+                <td><span class="status">Read</span></td>
+                <td>
+                    <span class="rate three">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </td>
+            </tr>
+            <tr class="read">
+                <td>The Fellowship of the Ring</td>
+                <td>J.R.R. Tolkien</td>
+                <td>Fantasy</td>
+                <td><span class="status">Read</span></td>
+                <td>
+                <span class="rate three">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                </td>
+            </tr>
+            <tr class="in-progress">
+                <td>The Two Towers</td>
+                <td>J.R.R. Tolkien</td>
+                <td>Fantasy</td>
+                <td><span class="status">In Progress</span></td>
+                <td>
+                <span class="rate two">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                </td>
+            </tr>
+            <tr class="to-read">
+                <td>The Return of the King</td>
+                <td>J.R.R. Tolkien</td>
+                <td>Fantasy</td>
+                <td><span class="status">To Read</span></td>
+                <td>
+                <span class="rate">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                </td>
+            </tr>
+        </table>
+    </main>
 </body>
 </html>
