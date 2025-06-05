@@ -13,9 +13,10 @@ The goal of this portfolio is to reinforce and apply foundational JavaScript kno
 ### The following certified projects were built using only the course-provided instructions and requirements.
 
 #### ✅ Completed
-- ✅ **Pyramid Generator**  
+- **Pyramid Generator**  
   *Learn Introductory JavaScript*  
   A tool to print out a pyramid pattern using user-defined characters and height.
+
 - **Gradebook App**  
   *Review JavaScript Fundamentals*
 
