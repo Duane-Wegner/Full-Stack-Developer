@@ -16,8 +16,6 @@ The goal of this portfolio is to reinforce and apply foundational JavaScript kno
 - ✅ **Pyramid Generator**  
   *Learn Introductory JavaScript*  
   A tool to print out a pyramid pattern using user-defined characters and height.
-
-#### 🕐 In Progress / Not Started
 - **Gradebook App**  
   *Review JavaScript Fundamentals*
 
@@ -27,11 +25,13 @@ The goal of this portfolio is to reinforce and apply foundational JavaScript kno
 - **Random Background Color Changer**  
   *Learn Basic Debugging*
 
-- **Calorie Counter**  
-  *Learn Form Validation*
-
 - **Rock, Paper, Scissors Game**  
   *Review DOM Manipulation*
+
+#### 🕐 In Progress / Not Started
+
+- **Calorie Counter**  
+  *Learn Form Validation*
 
 - **Music Player**  
   *Learn Basic String and Array Methods*
