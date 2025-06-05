@@ -25,13 +25,15 @@ The goal of this portfolio is to reinforce and apply foundational JavaScript kno
 - **Random Background Color Changer**  
   *Learn Basic Debugging*
 
+- **Calorie Counter**  
+  *Learn Form Validation*
+
 - **Rock, Paper, Scissors Game**  
   *Review DOM Manipulation*
 
 #### 🕐 In Progress / Not Started
 
-- **Calorie Counter**  
-  *Learn Form Validation*
+
 
 - **Music Player**  
   *Learn Basic String and Array Methods*
