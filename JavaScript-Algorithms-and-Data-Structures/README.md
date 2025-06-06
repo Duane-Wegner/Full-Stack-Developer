@@ -32,12 +32,10 @@ The goal of this portfolio is to reinforce and apply foundational JavaScript kno
 - **Rock, Paper, Scissors Game**  
   *Review DOM Manipulation*
 
-#### 🕐 In Progress / Not Started
-
-
-
 - **Music Player**  
   *Learn Basic String and Array Methods*
+
+#### 🕐 In Progress / Not Started
 
 - **Date Formatter**  
   *Learn the Date Object*
