@@ -86,10 +86,10 @@ Each of the following projects is a requirement to complete the certification:
 
 #### ✅ Completed
 
-#### 🕐 In Progress / Not Started
-
 - **Palindrome Checker**  
   A tool that checks if a given string is a palindrome.
+
+#### 🕐 In Progress / Not Started
 
 - **Roman Numeral Converter**  
   Converts integers into their Roman numeral representations.
