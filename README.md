@@ -40,13 +40,13 @@ Final certification includes a capstone project and exam (coming soon).
 
 ## 🧠 In Progress
 
-### JavaScript (137/893 steps complete)
+### JavaScript (333/893 steps complete)
 - ✅ Code Editors
 - ✅ Variables and Strings (in progress)🕐
 - ✅ Booleans & Numbers
-- 🔄 Functions, Arrays, Objects, Loops
+- ✅ Functions, Arrays, Objects, Loops
+- 🔄 DOM Manipulation & Events
 - 🕐 Modules not started:
-   - DOM Manipulation & Events
    - Debugging & Regular Expressions
    - Form Validation, Dates, Audio/Video
    - Maps & Sets, localStorage
@@ -93,8 +93,8 @@ This course is maintained by [freeCodeCamp ](https://www.freecodecamp.org)a nonp
 
 ## 📌 Notes
 
-- I’ve completed all HTML and nearly all CSS content.
-- I’m currently working through JavaScript fundamentals while I finish the CSS content and further my skills in CSS.
+- I’ve completed all HTML and CSS content.
+- I’m currently working through JavaScript fundamentals.
 - Future goals include mastering backend development and contributing to open-source projects.
 
 ---
