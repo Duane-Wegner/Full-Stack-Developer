@@ -2,6 +2,12 @@
 
 Welcome to my journey through the [Certified Full Stack Developer Curriculum](https://www.freecodecamp.org/learn/full-stack-developer/)! This comprehensive course is designed to equip developers with the skills needed to build modern, scalable web applications from the ground up. Covering everything from HTML and CSS to advanced JavaScript, React, and backend technologies.
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+
+![Visual Studio Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual%20studio%20code&logoColor=white)  ![WebStorm](https://img.shields.io/badge/WebStorm-000000?style=flat&logo=webstorm&logoColor=white)
+
+[![freeCodeCamp](https://img.shields.io/badge/freeCodeCamp-27273D?style=flat&logo=freecodecamp&logoColor=white)](https://www.freecodecamp.org/D_Wegner)
+
 ---
 
 ## 🌐 Overview
